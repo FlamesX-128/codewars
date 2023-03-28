@@ -30,13 +30,3 @@ function decrypt(s: string, n: number): string {
 }
 
 export { encrypt, decrypt }
-
-// Test
-console.log(encrypt('This is a test!', 1))
-console.log(encrypt('This is a test!', 2))
-console.log(encrypt('This is a test!', 3))
-
-console.log(decrypt('hsi  etTi sats!', 1))
-console.log(decrypt('s eT ashi tist!', 2))
-console.log(decrypt(' Tah itse sits!', 3))
-
